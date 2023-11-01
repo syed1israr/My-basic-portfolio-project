@@ -60,10 +60,3 @@ function animateElements(selector) {
 
 animateElements(".changes");
 
-document.querySelector('.Contact').addEventListener('click', (e) => {
-  e.preventDefault();
-
-  // Scroll to the target element
-  const target = document.querySelector('#page3');
-  target.scrollTo({ behavior: 'smooth' }); // Smooth scroll to the target element
-});

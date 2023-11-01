@@ -323,12 +323,12 @@ transition: transform 0.3s ease;
     background-size: cover;
     object-fit: cover;
 }
-.magma>video{
+.magma>video:nth-child(1){
     object-fit: cover;
     height: 80%;
     width: 100%;
     border-radius: 20px;
-    box-shadow: 15px 15px 15px #1144E4;
+    box-shadow: 5px 5px 5px #1144E4;
     transition: transform 0.3s ease;
     
 }
@@ -347,7 +347,7 @@ transition: transform 0.3s ease;
         height: 80%;
         width: 100%;
         border-radius: 20px;
-        box-shadow: 15px 15px 15px wheat;
+        box-shadow: 5px 5px 5px wheat;
         transition: transform 0.3s ease;
         
     }
@@ -365,10 +365,10 @@ transition: transform 0.3s ease;
     height: 80%;
     width: 100%;
     border-radius: 20px;
-    box-shadow: 15px 15px 15px #1E1E1E;
-    transition: transform 0.3s ease;
-    
+    box-shadow: 5px 5px 5px #1E1E1E;
+    transition: transform 0.3s ease;    
 }
+
 
 .magma>video:hover{
     transform: scale(1.2);
@@ -409,6 +409,7 @@ transition: transform 0.3s ease;
    
 
 }
+
 .text3>h5{
     color: #6F5DC3;
     transform: rotate(-20deg);

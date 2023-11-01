@@ -59,5 +59,3 @@ function animateElements(selector) {
 }
 
 animateElements(".changes");
-
-

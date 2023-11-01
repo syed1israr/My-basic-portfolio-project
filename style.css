@@ -516,9 +516,10 @@ transition: transform 0.3s ease;
     color: white;
 }
 #Minicircle {
-    width: 20px;
-    height: 20px;
-    background-color: grey; 
+    width: 30px;
+    height: 30px;
+    background-color: #ece7e7;
+    mix-blend-mode:difference;
     border-radius: 50%; 
     position: absolute;
     transition: all 0.05s ease-in-out; 

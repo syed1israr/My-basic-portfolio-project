@@ -133,7 +133,7 @@ transition: transform 0.3s ease;
 }
 .central-nav>a:hover{
     color: red;
-    transform: scale(1.2);
+    
 }
 
 

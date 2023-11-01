@@ -34,13 +34,19 @@ const locoScroll = new LocomotiveScroll({
   el: document.querySelector(".main"),
   smooth: true
 });
-gsap.from(".changes",{
+
+
+gsap.from(".changes", {
+    ScrollTrigger: {
+        trigger: ".scroll-trigger", // Replace with the actual trigger element
+        start: "top",        // Set the starting position
+        end: "bottom",      // Set the ending position
+        scrub: 0.5,                // Enable scrubbing
+    },
     y: 100,
     opacity: 0,
     delay: 0.5,
     duration: 0.5,
-    stagger: 0.1,
-    
-}
+    stagger: 0.2,
+});
 
-)

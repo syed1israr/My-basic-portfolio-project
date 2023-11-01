@@ -9,8 +9,8 @@ let circleY = 0;
 
 function updateCirclePosition(x, y) {
     gsap.to("#Minicircle", {
-        x: x,
-        y: y,
+        x: x+20,
+        y: y+10,
         duration: 0.3,
         ease: "power2.out"
     });

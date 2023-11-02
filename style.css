@@ -5,14 +5,16 @@
     box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
     
+    
 
 }
 
 .page4{
-    color: #1144E4;
+    color: #000000;
     height: 100%;
     width: 100vw;
-
+    background-color: #e1e1e1;
+    margin-top: -32px;
 
 }
 .Achievements{
@@ -424,7 +426,7 @@ transition: transform 0.3s ease;
     justify-content: space-between;
     padding: 0px 60px;
     position: relative;
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     background-color: #fc69d2;
 }

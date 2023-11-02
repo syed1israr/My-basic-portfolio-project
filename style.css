@@ -439,9 +439,11 @@ transition: transform 0.3s ease;
     justify-content: space-between;
     padding: 0px 60px;
     position: relative;
+    margin-top: -1px;
     height: 120vh;
     width: 100vw;
-    background-color: #db4fd2;
+    background-color: #3D3D3D;
+    color: white;
 }
 .p4{
     margin-top: 200px;

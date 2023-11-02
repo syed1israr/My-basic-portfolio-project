@@ -428,14 +428,18 @@ transition: transform 0.3s ease;
     position: relative;
     height: 120vh;
     width: 100vw;
-    background-color: #fc69d2;
+    background-color: #9d0070;
 }
 .p4{
     margin-top: 200px;
 }
 #left1{
-    height: 70%;
+    height: 80%;
     width: 35%;
+  
+}
+.page2_2{
+    background-color: #7851A9;
 }
 #right1{
     position: relative;

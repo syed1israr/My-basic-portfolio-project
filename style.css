@@ -18,6 +18,7 @@
     width: 100vw;
     background-image: url(https://images.unsplash.com/photo-1605710345595-9929bc7912ca?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGJsYWNrJTIwYmFja2dyb3VuZHN8ZW58MHwwfDB8fHww);
     color: #7E7C84;
+    backface-visibility: hidden;
 
     background-image: cover;
     margin-top: -30px;

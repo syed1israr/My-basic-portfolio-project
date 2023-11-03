@@ -13,20 +13,21 @@
 }
 
 .page4{
-    color: #d8d1d1;
+    color: #f3eaea;
     height: 100%;
     width: 100vw;
-  
+    background-image: url(https://images.unsplash.com/photo-1605710345595-9929bc7912ca?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGJsYWNrJTIwYmFja2dyb3VuZHN8ZW58MHwwfDB8fHww);
+    background-image: cover;
     margin-top: -30px;
-    background-color: #3D3D3D ;
+   
 
 }
 .Achievements{
-    color: rgb(238, 238, 238);
+    color: #e2d9d9;
     height: 30%;
     margin-top: 30px;
     margin-left: 60px;
-    background-color: #3D3D3D ;
+   
     
 
 
@@ -48,7 +49,7 @@
     padding:  70px;
     gap: 30px;
     margin-left: 10px;
-    background-color: #3D3D3D ;
+ 
 }
 .certificates>img{
     height: 30%;
@@ -442,8 +443,8 @@ transition: transform 0.3s ease;
     margin-top: -1px;
     height: 120vh;
     width: 100vw;
-    background-color: #3D3D3D;
-    color: white;
+    background-color:   palevioletred;
+    color: rgb(0, 0, 0);
 }
 .p4{
     margin-top: 200px;

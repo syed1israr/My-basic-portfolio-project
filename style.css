@@ -13,17 +13,19 @@
 }
 
 .page4{
-    color: #f3eaea;
+    color: #000000;
     height: 100%;
     width: 100vw;
     background-image: url(https://images.unsplash.com/photo-1605710345595-9929bc7912ca?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGJsYWNrJTIwYmFja2dyb3VuZHN8ZW58MHwwfDB8fHww);
+    color: #7E7C84;
+
     background-image: cover;
     margin-top: -30px;
    
 
 }
 .Achievements{
-    color: #e2d9d9;
+    color: #7E7C84;
     height: 30%;
     margin-top: 30px;
     margin-left: 60px;
@@ -72,22 +74,38 @@
 }
 .leetcode>a>img{
     margin-left: 20px;
-    height: 100%;
+    height: 50%;
     width: 100%;
     bottom: 0;
 }
 .leetcode>a{
-    height: 30px;
+    height: 50px;
     width: 30px;
+}
+
+.leetcode{
+    display: flex;
+    gap: 30px;
+}
+.Gfg>a>img{
+    margin-left: 20px;
+    height: 50%;
+    width: 100%;
+    bottom: 0;
+}
+.Gfg>a{
+    height: 50px;
+    width: 30px;
+}
+
+.Gfg{
+    display: flex;
+    gap: 30px;
 }
 .problems>h2{
     color: black;
     margin-left: 15%;
     font-size: 40px;
-}
-.leetcode{
-    display: flex;
-    gap: 30px;
 }
 
 

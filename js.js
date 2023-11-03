@@ -60,3 +60,8 @@ function animateElements(selector) {
 
 animateElements(".changes");
 
+const btn = document.querySelector(".B1");
+btn.addEventListener("click", function() {
+    const targetUrl = "https://mail.google.com/mail/u/0/";
+    window.location.href = targetUrl;
+});
